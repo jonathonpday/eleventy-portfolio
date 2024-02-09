@@ -165,12 +165,12 @@ section {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  flex: 1;
 }
 
 .project-item > div:last-child {
   aspect-ratio: 16/9;
   max-width: 30%;
-  min-width: 30%;
   overflow: hidden;
   border-radius: 8px;
 }

@@ -6,7 +6,7 @@ layout: "base.njk"
 <h2>Want to get in touch?</h2>
 <p>I'm always open to new opportunities and projects:</p>
 
-<form name="contact" method="POST" action="/success" netlify>
+<form name="contact" method="POST" netlify>
   <div class="mb-3">
     <label for="firstName" class="form-label">First Name</label>
     <input
@@ -14,6 +14,7 @@ layout: "base.njk"
       class="form-control"
       id="firstName"
       aria-label="first name"
+      name="firstName"
       required
     />
   </div>
@@ -24,6 +25,7 @@ layout: "base.njk"
       class="form-control"
       id="surname"
       aria-label="surname"
+      name="surname"
       required
     />
   </div>
@@ -34,6 +36,7 @@ layout: "base.njk"
       class="form-control"
       id="email"
       aria-describedby="emailHelp"
+      name="email"
       required
     />
     <div id="emailHelp" class="form-text">
@@ -46,6 +49,7 @@ layout: "base.njk"
       class="form-control"
       aria-label="With textarea"
       id="message"
+      name="message"
       required
     ></textarea>
   </div>

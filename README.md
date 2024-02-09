@@ -1,6 +1,6 @@
 # Jonathon Day Portfolio
 
-A portfolio built to display and advertise my services as a front-end developer
+A [portfolio](https://jonathondayportfolio.com/) built to display and advertise my services as a front-end developer
 
 ## Built with:
 
@@ -10,4 +10,4 @@ A portfolio built to display and advertise my services as a front-end developer
 4. [Bootstrap 5.3](https://getbootstrap.com/)
 5. [Netlify](https://www.netlify.com/)
 
-## Please ⭐ the repo if any of this is useful for you.
+**Please ⭐ the repo if any of this is useful for you.**

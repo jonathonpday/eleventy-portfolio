@@ -168,6 +168,10 @@ section {
   flex: 1;
 }
 
+.project-item div:first-child p {
+  margin-bottom: 0;
+}
+
 .project-item > div:last-child {
   aspect-ratio: 16/9;
   max-width: 30%;

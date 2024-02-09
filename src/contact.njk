@@ -1,0 +1,55 @@
+---
+title: "Jonathon Day"
+layout: "base.njk"
+---
+
+<h2>Want to get in touch?</h2>
+<p>I'm always open to new opportunities and projects:</p>
+
+<form name="contact" method="POST" netlify>
+  <div class="mb-3">
+    <label for="firstName" class="form-label">First Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="firstName"
+      aria-label="first name"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="surname" class="form-label">Surname</label>
+    <input
+      type="text"
+      class="form-control"
+      id="surname"
+      aria-label="surname"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email address</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      aria-describedby="emailHelp"
+      required
+    />
+    <div id="emailHelp" class="form-text">
+      I will never share your email with anyone else.
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">Your Message</label>
+    <textarea
+      class="form-control"
+      aria-label="With textarea"
+      id="message"
+      required
+    ></textarea>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Get in Touch</button>
+  </div>
+</form>
